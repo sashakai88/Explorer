@@ -1,0 +1,12 @@
+## Interface: 120000
+## Title: IronMan
+## Notes: A total conversion for immersion. Removes hand-holding, adds friction.
+## Author: Antigravity
+## Version: 1.0
+## SavedVariables: IronManJournalDB
+
+Core.lua
+RevealData.lua
+Cartographer.lua
+Silencer.lua
+Scribe.lua

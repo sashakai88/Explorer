@@ -1,0 +1,15 @@
+<Bindings>
+    <Binding name="IRONMAN_TOGGLE_JOURNAL" default="L">
+        if IronManJournalFrame:IsShown() then 
+            IronManJournalFrame:Hide() 
+        else 
+            IronManJournalFrame:Show() 
+            if IronManJournalFrame.RefreshJournal then IronManJournalFrame.RefreshJournal() end
+        end
+    </Binding>
+    <Binding name="IRONMAN_TOGGLE_MAP" default="M">
+        if IronManMapFrame then
+            IronManMapFrame:Toggle()
+        end
+    </Binding>
+</Bindings>
